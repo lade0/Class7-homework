@@ -1,0 +1,8 @@
+# writing a program to check if the character is a letter
+character=int and str(input("enter your character such as u or /"))
+if((character >= 'a' and character <= 'z') or (character >= 'A' and character <= 'Z')):
+    print("the character is a letter")
+elif((character >0 or character <0)):
+      print("the character is a number")
+else:
+    print("the character is other")
